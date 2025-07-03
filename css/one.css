@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+
+
+
+
+
+/* reset */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #333;}
+img {display: block;}
+
+
+
+/* html, body {height: 100%;} */
+
+
+.body {background: url(../img/bg.png); width: 1920px; height: 100%; }
+.centerbox {width: 1300px; margin: 0 auto;  }
+
+header {position: absolute; width: 100%; height: 118px; /* z-index: 10; */}
+header .centerbox {padding-top: 27px; ; display: flex; justify-content: space-between; align-items: center;}
+
+header h1 {display: block; }
+header .gnb {display: flex; gap: 140px; }
+header .gnb li {font-size: 24px; font-family: 'SpoqaHanSansNeo-Bold'; }
+header .gnb li a {padding: 20px 0; color: #0E2E5B;  display: block;}
+
+
+#visual {width: 100%; height: 100vh; background: url(../img/haeder.png); background-size: cover;}
+
+#visual .centerbox {position: relative; }
+#visual .centerbox .textbox { position: absolute; top: 665px; right: 331px; text-align: right;}
+
+#visual .centerbox .textbox em {display: block; font-size: 36px; font-style: normal; color: #fff; font-family: 'SpoqaHanSansNeo-Bold';}
+#visual .centerbox .textbox strong {display: block; font-size: 88px; line-height: 102.1%; color: #fff; font-family: 'SpoqaHanSansNeo-Bold';}
+
+
+section {height: 3720px; padding-top: 100px; }
+section .part_title {margin: 270px 0 0;}
+section .title {font-size: 76px; height: auto;  display: flex; align-items: center; justify-content: center; gap: 20px; }
+section .num {border-top: 2px solid #2c3e50; font-size: 103px;  color: #2c3e50; font-family: 'GmarketSansBold'; height: 114px;}
+section .title span.tit {
+    color: white;           
+    padding: 0 0;    
+    text-align: center;
+    font-family: 'GmarketSansBold'; height: 82px; display: flex; align-items: center; overflow: hidden;}
+section .part_title .title .tit strong {background-color: #2c3e50;  margin-top: -5px;}
+section .blu {font-family:'GmarketSansMedium'; color: #2c3e50; display: flex; justify-content: center; font-size: 40px; }
+
+
+section .poster_box {width: 1300px; height: 789px; border: 1.5px solid #7E84A6; border-radius: 0 78px 0 78px; background: #fff; margin: 0 auto; margin-top: 50px; position: relative; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); ; display: flex;}
+section .poster_box .more_btn{border-bottom: 1px solid #7E84A6; color: #7E84A6; font-family: 'GmarketSansBold'; position: absolute; top: 53px; right: 58px; font-size: 13px;}
+section .poster_box .post_1 {width: 369px; height: 789px; margin-left: 48px; margin-right: 50px; }
+section .poster_box .poster01 {width: 369px; height: 473px; border-radius: 20px; margin-top: 113px; margin-bottom: 43px;}
+section .poster_box .post_1 .tit1 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 20px; color: #2E3552; text-align: center; margin-bottom: 5px;}
+section .poster_box .post_1 .tit2 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #2E3552; text-align: center; margin-bottom: 5px;}
+section .poster_box .post_1 .tit3 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #2E3552; text-align: center}
+section .poster_box .post_2 {width: 369px; height: 789px; }
+section .poster_box .poster02 {width: 369px; height: 473px; border-radius: 20px; margin-top: 113px; margin-bottom: 43px;}
+section .poster_box .post_2 .tit1 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 20px; color: #2E3552; text-align: center; margin-bottom: 5px;}
+section .poster_box .post_2 .tit2 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #2E3552; text-align: center; margin-bottom: 5px;}
+section .poster_box .post_2 .tit3 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #2E3552; text-align: center}
+section .poster_box .post_3 {width: 369px; height: 789px; margin-left: 48px; margin-right: 50px;}
+section .poster_box .poster03 {width: 369px; height: 473px; border-radius: 20px; margin-top: 113px; margin-bottom: 43px;}
+section .poster_box .post_3 .tit1 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 20px; color: #2E3552; text-align: center; margin-bottom: 5px;}
+section .poster_box .post_3 .tit2 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #2E3552; text-align: center; margin-bottom: 5px;}
+section .poster_box .post_3 .tit3 {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #2E3552; text-align: center}
+
+
+section .part_title2 {margin: 192px 0 0;}
+section .part_title2 .title {font-size: 76px;/*  height: auto; */  display: flex; align-items: center; justify-content: center; gap: 20px; }
+section .part_title2 .num {border-top: 2px solid #2c3e50; font-size: 103px;  color: #2c3e50; font-family: 'GmarketSansBold'; height: 114px;}
+section .part_title2 .title span.tit {
+    color: white;           
+    padding: 0 0;    
+    text-align: center;
+    font-family: 'GmarketSansBold'; /* height: 82px; */ display: flex; align-items: center; overflow: hidden;}
+section .part_title2 .title .tit strong {background-color: #2c3e50;  margin-top: -5px;}
+section .part_title2 .blu {font-family:'GmarketSansMedium'; color: #2c3e50; font-size: 40px;  gap: 15px;}
+section .part_title2 .blu p {display: flex; align-items: center; line-height: 75px; }
+section .part_title2 .number {color: #ED7036; text-align: center; display: block;}
+
+section .content_box  {width: 1300px; /* height: 362px */; border: 1.5px solid #7E84A6; border-radius: 0 78px 0 78px; background: #fff; margin: 0 auto; margin-top: 50px; position: relative; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); ; display: flex; padding: 60px 48px 80px;}
+
+section .content_box .more_btn {border-bottom: 1px solid #7E84A6; color: #7E84A6; font-family: 'GmarketSansBold'; position: absolute; top: 53px; right: 58px; font-size: 13px;}
+
+section .content_box .text {font-family: 'GmarketSansBold'; width: 100%;}
+section .content_box .text h1 {font-size: 25px; margin-bottom: 36px; }
+section .content_box .text ul {font-family: 'GmarketSansMedium'; display: flex;  justify-content: space-between; border-bottom: 1px dotted #C2C2C2; padding: 18px 0;}
+section .content_box .text ul li {/* display: flex; */}
+section .content_box .text ul li:first-child {width: 978px;}
+section .content_box .text ul li:last-child {width: 100px; font-size: 16px; color: #969696; font-family: 'GmarketSansMedium'; line-height: 32px; }
+
+
+section .part_title3 {margin: 230px 0 0; }
+section .part_title3 .title {font-size: 76px;/*  height: auto; */  display: flex; align-items: center; justify-content: center; gap: 20px; }
+section .part_title3 .num {border-top: 2px solid #ffffff; font-size: 103px;  color: #ffffff; font-family: 'GmarketSansBold'; height: 114px;}
+section .part_title3 .title span.tit {
+    color: white;           
+    padding: 0 0;    
+    text-align: center;
+    font-family: 'GmarketSansBold'; /* height: 82px; */ display: flex; align-items: center; overflow: hidden;}
+section .part_title3 .title .tit strong { margin-top: -5px;}
+section .part_title3 .blu {font-family:'GmarketSansMedium'; color: #ffffff; font-size: 40px;  gap: 15px; margin-bottom: 50px;}
+
+
+section .contentbox {width: 1300px; height: 901px; border-radius: 0 78px 0 78px; border: 1px solid #7E84A6; margin: 0 auto; overflow: hidden; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+section .contentbox .map_box {width: 1300px;height: 658px;  }
+section .contentbox .info_box {width: 1280px; height: 224px; background: #E8E9F0; border-radius: 0 0 0 70px; margin: 10px; display: flex; position: relative;}
+section .contentbox .info_box address {font-size: 19px; font-family: 'GmarketSansBold'; font-style: normal; padding: 19px 0 0 85px;}
+section .contentbox .info_box address p {font-size: 16px; font-family: 'GmarketSansMedium'; font-style: normal; color: #6C6C6C; padding-top: 5px;}
+section .contentbox .info_box .tell {font-size: 19px; font-family: 'GmarketSansBold'; font-style: normal;position: absolute; top: 109px; left: 85px;}
+section .contentbox .info_box .tell p {font-size: 16px; font-family: 'GmarketSansMedium'; font-style: normal; color: #6C6C6C; padding-top: 5px;}
+section .contentbox .info_box .directions {font-size: 19px; font-family: 'GmarketSansBold'; font-style: normal; position: absolute; left: 702px; top: 19px; }
+section .contentbox .info_box .directions p {font-size: 16px; font-family: 'GmarketSansMedium'; font-style: normal; color: #6C6C6C;}
+section .contentbox .info_box .directions .bus {font-size: 16px; font-family: 'GmarketSansMedium'; font-style: normal; color: #000;}
+section .contentbox .info_box .directions .sub {font-size: 16px; font-family: 'GmarketSansMedium'; font-style: normal; color: #000;}
+
+footer {height: 320px; background: #0E2E5B; display: flex;justify-content: center; color: #fff; font-size: 13px;font-family: 'SpoqaHanSansNeo-Medium'; line-height: 151%;}
+footer .f_info  {width: 1300px;display: flex;justify-content: space-between; align-items: center;}
+footer .f_info .p1 {width: 407px;  }
+footer .f_info .p2 {width: 275px;  }
+
+
+.root_daum_roughmap .wrap_controllers {display: none;}

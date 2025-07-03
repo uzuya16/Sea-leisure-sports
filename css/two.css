@@ -1,0 +1,141 @@
+            @font-face {
+    font-family: 'SpoqaHanSansNeo-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'SpoqaHanSansNeo-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+              @font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+
+
+
+
+
+/* reset */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #333;}
+img {display: block;}
+/* html, body {height: 100%;} */
+
+
+.wrap { width: 1920px; height: 100%; border: 1px solid #000;}
+header {position: absolute; width: 100%; height: 118px; /* z-index: 10; */}
+header .centerbox {padding-top: 27px; ; display: flex; justify-content: space-between; align-items: center; width: 1300px; margin: 0 auto; }
+
+header h1 {display: block; }
+header .gnb {display: flex; gap: 140px; }
+header .gnb li {font-size: 24px; font-family: 'SpoqaHanSansNeo-Bold'; }
+header .gnb li a {padding: 20px 0; color: #0E2E5B;  display: block;}
+
+#visual1 {width: 1920px;height: 570px; background: url(../img/haeder2.png); background-size: cover;}
+
+section .section_box {width: 1300px; margin: 0 auto; margin-top: 71px; color: #0E2E5B; position: relative; margin-bottom: 44px;}  
+section .section_box p {font-family: 'GmarketSansMedium'; font-size: 14px; position: absolute; top: -8px;}
+section .section_box .text {font-family: 'GmarketSansBold'; font-size: 32px;}
+section .section_box .text span {font-family: 'GmarketSansBold'; font-size: 32px; background: #0E2E5B; color: #fff;}
+
+.line {width: 1295px; margin: 31px auto 31px; border: 0.5px solid #D5E3F5;}
+
+.ts {width: 425px; height: 43px; display: flex; justify-content: space-between; margin: 0 auto;}
+.ts .t1 {width: 99px; height: 43px; border-radius: 21px; background: #5A88C9; text-align: center; line-height: 43px; font-family: 'GmarketSansMedium'; color: #fff;}
+.ts .t2 {width: 99px; height: 43px; border-radius: 21px; background: #9EADC2; text-align: center; line-height: 43px; font-family: 'GmarketSansMedium'; color: #fff;}
+.ts .t3 {width: 99px; height: 43px; border-radius: 21px; background: #9EADC2; text-align: center; line-height: 43px; font-family: 'GmarketSansMedium'; color: #fff;}
+.ts .t4 {width: 99px; height: 43px; border-radius: 21px; background: #9EADC2; text-align: center; line-height: 43px; font-family: 'GmarketSansMedium'; color: #fff;}
+
+
+
+.poster_box .poster_2 {width: 1300px; display: flex; justify-content: space-between; margin: 70px 0 ;}
+.poster_box .poster_2 .poster1 {width: 607px; height: 633px;}
+.poster_box .poster_2 .poster2 {width: 607px; height: 633px;}
+.poster_box .poster_3 { width: 1300px; display: flex; justify-content: space-between;}
+.poster_box .poster_3 .poster1 {width: 607px; height: 633px;}
+.poster_box .poster_3 .poster2 {width: 607px; height: 633px;}
+
+.poster_box {width: 1300px; margin: 71px auto; display: block; }
+.poster_box .poster_1 { width: 1300px; display: flex; justify-content: space-between; margin-top: 40px;}
+.poster_box .poster_1 img {}
+.poster_box .poster_1 .poster1 {width: 607px; height: 633px; border-radius: 30px; background: #5A88C9; border: 1px solid #5A88C9; overflow: hidden;}
+.poster_box .poster_1 .poster1 .text {}
+.poster_box .poster_1 .poster1 h3 {font-family: 'SpoqaHanSansNeo-Bold'; color: #fff; font-size: 35px; text-align: center; padding-top: 38px;}
+.poster_box .poster_1 .poster1 p {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #fff;text-align: center; padding-top: 2px;}
+
+.poster_box .poster_1 .poster2 {width: 607px; height: 633px; border-radius: 30px; background: #5A88C9; border: 1px solid #5A88C9; overflow: hidden;}
+.poster_box .poster_1 .poster2 .text {}
+.poster_box .poster_1 .poster2 h3 {font-family: 'SpoqaHanSansNeo-Bold'; color: #fff; font-size: 35px; text-align: center; padding-top: 38px;}
+.poster_box .poster_1 .poster2 p {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #fff;text-align: center; padding-top: 2px;}
+
+.poster_box .poster_2 .poster1 {width: 607px; height: 633px; border-radius: 30px; background: #5A88C9; border: 1px solid #5A88C9; overflow: hidden;}
+.poster_box .poster_2 .poster1 .text {}
+.poster_box .poster_2 .poster1 h3 {font-family: 'SpoqaHanSansNeo-Bold'; color: #fff; font-size: 35px; text-align: center; padding-top: 38px;}
+.poster_box .poster_2 .poster1 p {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #fff;text-align: center; padding-top: 2px;}
+
+.poster_box .poster_2 .poster2 {width: 607px; height: 633px; border-radius: 30px; background: #5A88C9; border: 1px solid #5A88C9; overflow: hidden;}
+.poster_box .poster_2 .poster2 .text {}
+.poster_box .poster_2 .poster2 h3 {font-family: 'SpoqaHanSansNeo-Bold'; color: #fff; font-size: 35px; text-align: center; padding-top: 38px;}
+.poster_box .poster_2 .poster2 p {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #fff;text-align: center; padding-top: 2px;}
+
+.poster_box .poster_3 .poster1 {width: 607px; height: 633px; border-radius: 30px; background: #5A88C9; border: 1px solid #5A88C9; overflow: hidden;}
+.poster_box .poster_3 .poster1 .text {}
+.poster_box .poster_3 .poster1 h3 {font-family: 'SpoqaHanSansNeo-Bold'; color: #fff; font-size: 35px; text-align: center; padding-top: 38px;}
+.poster_box .poster_3 .poster1 p {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #fff;text-align: center; padding-top: 2px;}
+
+.poster_box .poster_3 .poster2 {width: 607px; height: 633px; border-radius: 30px; background: #5A88C9; border: 1px solid #5A88C9; overflow: hidden;}
+.poster_box .poster_3 .poster2 .text {}
+.poster_box .poster_3 .poster2 h3 {font-family: 'SpoqaHanSansNeo-Bold'; color: #fff; font-size: 35px; text-align: center; padding-top: 38px;}
+.poster_box .poster_3 .poster2 p {font-family: 'SpoqaHanSansNeo-Bold'; font-size: 16px; color: #fff;text-align: center; padding-top: 2px;}
+
+
+
+
+
+
+
+
+
+footer {margin-top: 256px; height: 320px; background: #0E2E5B; display: flex;justify-content: center; color: #fff; font-size: 13px;font-family: 'SpoqaHanSansNeo-Medium'; line-height: 151%;}
+footer .f_info  {width: 1300px;display: flex; justify-content: space-between; align-items: center;}
+footer .f_info .p1 {width: 407px;  }
+footer .f_info .p2 {width: 275px;  }
+
